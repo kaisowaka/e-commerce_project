@@ -1,3 +1,4 @@
+<?php
 // Initialisation de la session
 session_start();
 header("Cache-Control: no-cache");
@@ -25,3 +26,4 @@ $bdd->query("SET NAMES UTF8");
 
 // Initialisation Smarty
 $smarty = new Smarty();
+?>
