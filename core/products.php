@@ -3,7 +3,7 @@
 class Products
 {
     //Récupérer toutes les offres
-    public function getAll()
+    public static function getAll()
     {
       //On définit la bdd pour la fonction
       global $bdd;
