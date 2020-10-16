@@ -2,7 +2,7 @@
       Le contenu de notre page index.tpl
 </div>
 <table>
-{foreach from=allproducts item=product }
+{foreach from=$allproducts item=product }
 <tr>
       <td>{product.name}</td>
       <td>{product.description}</td>
