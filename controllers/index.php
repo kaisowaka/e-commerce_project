@@ -1,6 +1,9 @@
 <?php
-       //On crée une variable qui a pour valeur '15'
-       $maVariable = 15;
-       //On envoie la variable à la vue avec un smarty->assign
-       $smarty->assign('nomDeMaVariableSousSmarty', $maVariable);
+
+//On appelle la fonction getAll()
+$allproducts = Product::getAll();
+//On transmets les variables à Smarty
+echo($allproducts);
+$smarty->assign('allproducts', $allproducts);
+
 ?>
