@@ -4,9 +4,9 @@
 <table>
 {foreach from=$allproducts item=product }
 <tr>
-      <td>{product.name}</td>
-      <td>{product.description}</td>
-      <td>{product.price}</td>
+      <td>{$product.name}</td>
+      <td>{$product.description}</td>
+      <td>{$product.price}</td>
 </tr>  
 {/foreach}
 </table>
